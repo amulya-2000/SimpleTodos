@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.bg1 {
+  background-color: #ffc2a0;
+  padding: 30px;
+}
+.bg2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ff8542;
+}
+.ulist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

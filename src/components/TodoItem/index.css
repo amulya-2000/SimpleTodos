@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.lItem {
+  list-style-type: none;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.button {
+  color: #ff0b37;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff0b37;
+  border-radius: 5px;
+  padding: 10px;
+}
+.para {
+  color: #000000;
+}
