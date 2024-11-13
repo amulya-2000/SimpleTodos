@@ -1,21 +1,45 @@
 /* Write your CSS here */
-.lItem {
+.todo-item {
   list-style-type: none;
-}
-.card {
+  align-items: center;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  padding-right: 30px;
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
 }
-.button {
+
+/* .inner-container {
+  background-color: white;
+} */
+.delete-btn {
+  background-color: white;
   color: #ff0b37;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #ff0b37;
-  border-radius: 5px;
-  padding: 10px;
+  border: 2px solid #ff0b37;
+  padding: 10px 15px;
+  margin-bottom: 5px;
 }
-.para {
+.btn {
+  margin-left: 2px;
+}
+.title {
   color: #000000;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.completed {
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  .delete-btn {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
+  }
 }
